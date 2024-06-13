@@ -14,6 +14,16 @@
 		B4F46CF62C1AEFDE005BC7F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F46CF52C1AEFDE005BC7F8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B414D4D82C1AFD7500521A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F46CE32C1AEFDB005BC7F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F46CEA2C1AEFDB005BC7F8;
+			remoteInfo = NutriQuest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		B414D4CE2C1AF6D900521A9F /* QuestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListView.swift; sourceTree = "<group>"; };
 		B4F46CEB2C1AEFDB005BC7F8 /* NutriQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +34,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B414D4D12C1AFD7500521A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4F46CE82C1AEFDB005BC7F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				B4F46CED2C1AEFDB005BC7F8 /* NutriQuest */,
+				B414D4D52C1AFD7500521A9F /* NutriQuestTests */,
 				B4F46CEC2C1AEFDB005BC7F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B4F46CEB2C1AEFDB005BC7F8 /* NutriQuest.app */,
+				B414D4D42C1AFD7500521A9F /* NutriQuestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +108,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B414D4D32C1AFD7500521A9F /* NutriQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B414D4DA2C1AFD7500521A9F /* Build configuration list for PBXNativeTarget "NutriQuestTests" */;
+			buildPhases = (
+				B414D4D02C1AFD7500521A9F /* Sources */,
+				B414D4D12C1AFD7500521A9F /* Frameworks */,
+				B414D4D22C1AFD7500521A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B414D4D92C1AFD7500521A9F /* PBXTargetDependency */,
+			);
+			name = NutriQuestTests;
+			productName = NutriQuestTests;
+			productReference = B414D4D42C1AFD7500521A9F /* NutriQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B4F46CEA2C1AEFDB005BC7F8 /* NutriQuest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F46CF92C1AEFDE005BC7F8 /* Build configuration list for PBXNativeTarget "NutriQuest" */;
@@ -116,6 +153,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					B414D4D32C1AFD7500521A9F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B4F46CEA2C1AEFDB005BC7F8;
+					};
 					B4F46CEA2C1AEFDB005BC7F8 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -135,11 +176,19 @@
 			projectRoot = "";
 			targets = (
 				B4F46CEA2C1AEFDB005BC7F8 /* NutriQuest */,
+				B414D4D32C1AFD7500521A9F /* NutriQuestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B414D4D22C1AFD7500521A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4F46CE92C1AEFDB005BC7F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,6 +201,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B414D4D02C1AFD7500521A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B414D4D72C1AFD7500521A9F /* NutriQuestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4F46CE72C1AEFDB005BC7F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,7 +221,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B414D4D92C1AFD7500521A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F46CEA2C1AEFDB005BC7F8 /* NutriQuest */;
+			targetProxy = B414D4D82C1AFD7500521A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B414D4DB2C1AFD7500521A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV2TMVF6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriTeam.NutriQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriQuest";
+			};
+			name = Debug;
+		};
+		B414D4DC2C1AFD7500521A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BV2TMVF6X4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NutriTeam.NutriQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NutriQuest";
+			};
+			name = Release;
+		};
 		B4F46CF72C1AEFDE005BC7F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +441,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B414D4DA2C1AFD7500521A9F /* Build configuration list for PBXNativeTarget "NutriQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B414D4DB2C1AFD7500521A9F /* Debug */,
+				B414D4DC2C1AFD7500521A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B4F46CE62C1AEFDB005BC7F8 /* Build configuration list for PBXProject "NutriQuest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
