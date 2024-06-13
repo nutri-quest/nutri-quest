@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B414D4CF2C1AF6D900521A9F /* QuestListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B414D4CE2C1AF6D900521A9F /* QuestListView.swift */; };
 		B4F46CEF2C1AEFDB005BC7F8 /* NutriQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F46CEE2C1AEFDB005BC7F8 /* NutriQuestApp.swift */; };
 		B4F46CF12C1AEFDB005BC7F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F46CF02C1AEFDB005BC7F8 /* ContentView.swift */; };
 		B4F46CF32C1AEFDE005BC7F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F46CF22C1AEFDE005BC7F8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B414D4CE2C1AF6D900521A9F /* QuestListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListView.swift; sourceTree = "<group>"; };
 		B4F46CEB2C1AEFDB005BC7F8 /* NutriQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F46CEE2C1AEFDB005BC7F8 /* NutriQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriQuestApp.swift; sourceTree = "<group>"; };
 		B4F46CF02C1AEFDB005BC7F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B414D4CC2C1AF6A200521A9F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B414D4CE2C1AF6D900521A9F /* QuestListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B414D4CD2C1AF6AC00521A9F /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				B414D4CC2C1AF6A200521A9F /* Screens */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
 		B4F46CE22C1AEFDB005BC7F8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +69,7 @@
 		B4F46CED2C1AEFDB005BC7F8 /* NutriQuest */ = {
 			isa = PBXGroup;
 			children = (
+				B414D4CD2C1AF6AC00521A9F /* Quest */,
 				B4F46CEE2C1AEFDB005BC7F8 /* NutriQuestApp.swift */,
 				B4F46CF02C1AEFDB005BC7F8 /* ContentView.swift */,
 				B4F46CF22C1AEFDE005BC7F8 /* Assets.xcassets */,
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F46CF12C1AEFDB005BC7F8 /* ContentView.swift in Sources */,
+				B414D4CF2C1AF6D900521A9F /* QuestListView.swift in Sources */,
 				B4F46CEF2C1AEFDB005BC7F8 /* NutriQuestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
